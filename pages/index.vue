@@ -2,7 +2,7 @@
   <section class="font-sans">
     <div class="flex items-center content-center h-screen flex-wrap md:w-1/2 sm:w-full mx-auto border-white">
 
-        <div class="m-auto w-full md:w-1/3 md:ml-auto text-center pr-2">
+        <div class="m-auto w-full md:w-1/3 md:ml-auto text-center">
           <img :src="account.avatar_url" :alt="account.name" class="me">
         </div>
         <div class="m-auto w-full text-center md:w-1/2 md:mr-auto md:text-left items-center bg-grey-darkest-transparent">
