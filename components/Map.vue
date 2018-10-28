@@ -466,7 +466,7 @@ export default {
 
         if (!path) {
           i = 0
-
+          path = paths[i]
           // clearInterval(this.pathInterval)
           // return false
         }
