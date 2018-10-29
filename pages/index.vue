@@ -1,11 +1,12 @@
 <template>
   <section class="font-sans">
-    <div class="flex items-center content-center h-screen flex-wrap md:w-1/2 sm:w-full mx-auto border-white">
+    <div class="flex h-screen flex-wrap w-full border-white">
 
-        <div class="m-auto w-full md:w-1/3 md:ml-auto text-center">
-          <img :src="account.avatar_url" :alt="account.name" class="me">
-        </div>
-        <div class="m-auto w-full text-center md:w-1/2 md:mr-auto md:text-left items-center">
+        <div class="mt-auto md:my-auto text-center w-full md:w-1/4 px-4 pb-3 md:text-left items-center">
+          <div class="md:pl-12 md:ml-2">
+            <img :src="account.avatar_url" :alt="account.name" class="me mb-3 shadow">
+
+          </div>
 
           <h1 class="font-sans font-normal">
             {{ account.name }}
@@ -55,6 +56,7 @@ export default {
 <style>
 .me {
   border-radius: 50%;
+  border: 1px #a2a2a2 solid;
   width: 100px;
 }
 </style>
