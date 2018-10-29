@@ -540,7 +540,6 @@
     },
     mounted() {
       this.hideMap = false;
-      document.querySelector('#CH').style.fill = "#fff";
       let vivus = new Vivus('map-world', {
         duration: 600,
         type: 'delayed',
@@ -550,6 +549,7 @@
 
       this.vivusInterval = setInterval(() => {
         if (vivus.getStatus() === 'end') {
+          document.querySelector('#CH').style.fill = "#a2a2a2";
           clearInterval(this.vivusInterval);
           this.animePath()
         }
