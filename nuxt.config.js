@@ -52,7 +52,8 @@ module.exports = {
   */
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/google-analytics'
   ],
   /*
   ** Axios module configuration
@@ -61,6 +62,9 @@ module.exports = {
     // See https://github.com/nuxt-community/axios-module#options
   },
 
+  'google-analytics': {
+    id: 'UA-44216838-3'
+  },
   /*
   ** Build configuration
   */
