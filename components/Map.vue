@@ -506,9 +506,7 @@
 
           setTimeout(() => {
             this.fillFadeOut(path)
-            // path.style.fill = 'none'
           }, this.getRandomInt(300));
-          // time = this.getRandomInt(5) * 1000;
         }, this.getRandomInt(1500))
       },
 
