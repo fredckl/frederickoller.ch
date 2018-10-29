@@ -514,9 +514,9 @@
         var op = 0.1; // initial opacity
         element.style.fill = '#fff'
 
-        this.timetoutFillFadeIn = setInterval(() => {
+        var timer = setInterval(() => {
           if (op >= 1) {
-            clearInterval(this.timetoutFillFadeIn);
+            clearInterval(timer);
           }
           element.style.fillOpacity = op;
 
@@ -527,10 +527,10 @@
       fillFadeOut(element, time = 50) {
         var op = 1; // initial opacity
         // element.style.fill = 'none';
-        this.timetoutFillFadeOut = setInterval(() => {
+        var timer = setInterval(() => {
           // element.style.fill = '#fff'
           if (op <= 0.1) {
-            clearInterval(this.timetoutFillFadeOut);
+            clearInterval(timer);
             element.style.fill = 'none';
           }
           element.style.fillOpacity = op;
