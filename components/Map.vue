@@ -549,7 +549,7 @@
 
       this.vivusInterval = setInterval(() => {
         if (vivus.getStatus() === 'end') {
-          document.querySelector('#CH').style.fill = "#a2a2a2";
+          document.querySelector('#CH').style.fill = "#f2f2f2";
           clearInterval(this.vivusInterval);
           this.animePath()
         }
