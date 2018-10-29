@@ -5,7 +5,7 @@
         <div class="m-auto w-full md:w-1/3 md:ml-auto text-center">
           <img :src="account.avatar_url" :alt="account.name" class="me">
         </div>
-        <div class="m-auto w-full text-center md:w-1/2 md:mr-auto md:text-left items-center bg-grey-darkest-transparent">
+        <div class="m-auto w-full text-center md:w-1/2 md:mr-auto md:text-left items-center">
 
           <h1 class="font-sans font-normal">
             {{ account.name }}
@@ -56,11 +56,6 @@ export default {
 .me {
   border-radius: 50%;
   width: 100px;
-}
-
-.bg-grey-darkest-transparent {
-  background-color: rgba(61, 72, 82, .5);
-
 }
 </style>
 
