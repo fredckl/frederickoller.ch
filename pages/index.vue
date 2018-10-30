@@ -4,12 +4,11 @@
 
         <div class="mt-auto md:my-auto text-center w-full md:w-1/4 px-4 pb-3 md:text-left items-center">
           <div class="md:pl-12 md:ml-2">
-            <img :src="account.avatar_url" :alt="account.name" class="me mb-3 shadow">
-
+            <img src="/frederickoller.png" alt="Frédéric KOLLER - développeur web" class="me mb-3 shadow">
           </div>
 
-          <h1 class="font-sans font-normal">
-            {{ account.name }}
+          <h1 class="font-normal">
+            Frédéric KOLLER
           </h1>
           <p>
             développeur web
@@ -46,9 +45,9 @@ export default {
   components: {},
 
   async asyncData({ app }) {
-    let account = await app.$axios.$get("https://api.github.com/users/fredckl");
+    // let account = await app.$axios.$get("https://api.github.com/users/fredckl");
 
-    return { account };
+    // return { account };
   }
 };
 </script>
