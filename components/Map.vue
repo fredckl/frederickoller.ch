@@ -541,8 +541,9 @@
     mounted() {
       this.hideMap = false;
       let vivus = new Vivus('map-world', {
-        duration: 600,
+        duration: 700,
         type: 'delayed',
+        dashGap: 2,
         animTimingFunction: Vivus.EASE_IN
       });
 
