@@ -14,26 +14,26 @@
             développeur web
           </p>
           <p class="border-t-2 pt-2 mt-2 clearfix">
-            <i class="fab fa-html5"></i>
-            <i class="fab fa-css3-alt"></i>
-            <i class="fab fa-js-square"></i>
-            <i class="fab fa-vuejs"></i>
-            <i class="fab fa-node"></i>
-            <i class="fab fa-sass"></i>
-            <i class="fab fa-php"></i>
+            <i class="fab fa-html5" title="Expert HTML5"></i>
+            <i class="fab fa-css3-alt" title="Expert CSS et CSS 3"></i>
+            <i class="fab fa-js-square" title="Expert Javascript"></i>
+            <i class="fab fa-vuejs" title="Junoir VueJS"></i>
+            <i class="fab fa-node" title="Junior NodeJS"></i>
+            <i class="fab fa-sass" title="Maitrise Sass"></i>
+            <i class="fab fa-php" title="Expert PHP"></i>
             &nbsp;
             &nbsp;
             &nbsp;
             <span class="contact float-right">
 
-              <a href="//github.com/fredckl" class="text-grey-dark">
+              <a href="//github.com/fredckl" class="text-grey-dark" title="Frédéric KOLLER - Mon Github">
                 <i class="fab fa-github"></i>
               </a>
 
-              <a href="//www.linkedin.com/in/frederic-koller" class="text-grey-dark">
+              <a href="//www.linkedin.com/in/frederic-koller" class="text-grey-dark" title="Frédéric KOLLER - Me suivre sur LinkedIn">
                 <i class="fab fa-linkedin-in"></i>
               </a>
-              <a href="#" class="text-grey-dark" @click.prevent="openMail">
+              <a href="#" class="text-grey-dark" @click.prevent="openMail" title="Frédéric KOLLER - Me contacter par e-mail">
                 <i class="far fa-envelope"></i>
               </a>
             </span>
