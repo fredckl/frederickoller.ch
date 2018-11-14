@@ -52,7 +52,6 @@ export default {
   head: {
     title: 'Frédéric KOLLER',
     meta: [
-      { name: 'description', content: "Développeur web fullstack, je m'attache aux nouvelles technologies pour permet la meilleur experience utilisateur." },
       { name: 'keywords', content: 'html5, css3, javascript, JS, nodeJS, PHP, CakePHP, Laravel, Django' }
     ]
   },
