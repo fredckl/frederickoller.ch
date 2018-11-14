@@ -17,7 +17,7 @@
             <i class="fab fa-html5" title="Expert HTML5"></i>
             <i class="fab fa-css3-alt" title="Expert CSS et CSS 3"></i>
             <i class="fab fa-js-square" title="Expert Javascript"></i>
-            <i class="fab fa-vuejs" title="Junoir VueJS"></i>
+            <i class="fab fa-vuejs" title="Junior VueJS"></i>
             <i class="fab fa-node" title="Junior NodeJS"></i>
             <i class="fab fa-sass" title="Maitrise Sass"></i>
             <i class="fab fa-php" title="Expert PHP"></i>
