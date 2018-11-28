@@ -14,16 +14,16 @@
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/google-analytics": "^2.0.2",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.3.4",
     "push-dir": "^0.4.1",
     "vivus": "^0.4.4"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0",
     "autoprefixer": "^8.6.4",
+    "nodemon": "^1.18.7",
     "tailwindcss": "~0.6.6"
   }
 }
