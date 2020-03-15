@@ -84,3 +84,6 @@ dist
 
 # IDE
 .idea
+
+# VS Code IDE
+.vscode
